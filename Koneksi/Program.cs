@@ -16,7 +16,7 @@ namespace Koneksi
 
         public void Connecting() 
         {
-            using (
+            using (//perubahan
                 SqlConnection con = new SqlConnection("data source=DESKTOP-KVHUS77\\RIDWANAM;database=ProdiTI;User ID=sa;Password=riamima")
             ) 
             {
